@@ -35,6 +35,14 @@ mvn clean install
 mvn package
 java -jar target/dependency/jetty-runner.jar target/*.war
 
+to get xml:
+
 http://localhost:8080/services/playerservice/getplayer/1
 
 http://localhost:8080/services/playerservice/getallplayer
+
+to get json:
+
+http://localhost:8080/services/playerservice/getplayer/1.json
+
+http://localhost:8080/services/playerservice/getallplayer.json
