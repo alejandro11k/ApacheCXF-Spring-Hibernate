@@ -36,4 +36,5 @@ mvn package
 java -jar target/dependency/jetty-runner.jar target/*.war
 
 http://localhost:8080/services/playerservice/getplayer/1
+
 http://localhost:8080/services/playerservice/getallplayer
